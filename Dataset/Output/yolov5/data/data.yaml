@@ -1,0 +1,5 @@
+train: C:\Users\Kevem\OneDrive\Documents\GitHub\FaceMaskDetector\Dataset\Output\yolov5\data\test\images
+val: C:\Users\Kevem\OneDrive\Documents\GitHub\FaceMaskDetector\Dataset\Output\yolov5\data\val\images
+
+nc: 3
+names: ['with_mask', 'mask_weared_incorrect', 'without_mask']
