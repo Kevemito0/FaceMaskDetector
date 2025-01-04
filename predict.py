@@ -24,7 +24,7 @@ cvNet = cv2.dnn.readNetFromCaffe('model/architecture.txt','model/weights.caffemo
 print("loaded ssd model")
 
 #load prediction model
-saved_model_path = r"C:\Users\Kevem\OneDrive\Documents\GitHub\Real-Time-Face-Mask-Detection\mask_prediction.h5"
+saved_model_path = r"C:\Users\Kevem\OneDrive\Documents\GitHub\FaceMaskDetector\mask_prediction.h5"
 model = load_model(saved_model_path)
 print("loaded weights of model")
 
